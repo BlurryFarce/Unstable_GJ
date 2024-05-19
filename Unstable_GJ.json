@@ -1,0 +1,5320 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "396b2dd9-38d9-4fe6-8f01-f0c018abfd43",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Unstable_GJ",
+    "description": "",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Decoration Fish.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Fish.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/34849cb8c3d9d7234d760bd302ab5588c2d7ddbaa223e9ba348a913fd50c53ec_Decoration Fish.glb",
+          "name": "Decoration Fish.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Bamboo.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Bamboo.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/fae6a700f63e5ed066bfe5c2b2b0df51df364629c32ac242cc7dae91ee475197_Decoration Bamboo.glb",
+          "name": "Decoration Bamboo.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Painting Small.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Painting Small.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/19a96f7eb737a7d6aa2cb8581a1fe63061606d313cb201200561d217fdf19eb2_Decoration Painting Small.glb",
+          "name": "Decoration Painting Small.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Bell.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Bell.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/1d75ae70347e99a68683eddee7ed14008f7ae6fc672126e321b9aa8d579be49e_Decoration Bell.glb",
+          "name": "Decoration Bell.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Carpet.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Carpet.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/18a86eafc4278883781340a44c9b658425f69934db7ec77d63edf7f674f3d152_Decoration Carpet.glb",
+          "name": "Decoration Carpet.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Light.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Light.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/7918bf0b4c9a2405f159931809e4d72bf76858da80251b80f6a92c7fc287d5b9_Decoration Light.glb",
+          "name": "Decoration Light.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Plant 1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Plant 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/c5c669056acbf2f7682509be07ea9e257b34d252b6bb68a9d7fbdf2f60f2a168_Decoration Plant 1.glb",
+          "name": "Decoration Plant 1.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Painting.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Painting.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/faa23d71f29e6cd98171dd0bd9869e956d824c0bbbb8c228857e95554640953e_Decoration Painting.glb",
+          "name": "Decoration Painting.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Sakura Flower.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Sakura Flower.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/7a773be64f0e79f8b443b8f7f1491b4e49dadb9c4422d9a0e5fa6a1fef819765_Decoration Sakura Flower.glb",
+          "name": "Decoration Sakura Flower.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Sakura Tree.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Sakura Tree.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/5e0005072594725614a3994200bc85a525499e3aa6b09a12859608f77ad59cb1_Decoration Sakura Tree.glb",
+          "name": "Decoration Sakura Tree.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Plant 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Plant 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/70b6faba9ff4d2263c885c0c6e61d9ab0f5acda5d0b8880d87c496e3c2c935c9_Decoration Plant 2.glb",
+          "name": "Decoration Plant 2.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Sign 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Sign 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/17c077152f8e4f5ea693fb8a7f24b676256346d01b912f86e550e5192b057c2b_Decoration Sign 2.glb",
+          "name": "Decoration Sign 2.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Sign 3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Sign 3.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/0aa14515292e4a24d4ff1c7d437f2f184fc935e0c31b5572d54cfb1ca77aa580_Decoration Sign 3.glb",
+          "name": "Decoration Sign 3.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Sign.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Sign.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/762c60cdb48c67e9064d0207329745b2a28fe2ea64a602d6a9005ba1da546552_Decoration Sign.glb",
+          "name": "Decoration Sign.glb"
+        }
+      },
+      {
+        "file": "assets/Decoration Wall Light.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Decoration Wall Light.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Decoration/dd4c134251e40ec78cfc63d371b322908f2e10d881d4a3c528b81e9c58d2863d_Decoration Wall Light.glb",
+          "name": "Decoration Wall Light.glb"
+        }
+      },
+      {
+        "file": "assets/Fridge.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Fridge.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Device/480aeea619b7c4bfde5493c8c68087e5994f8c12c51631cfc47852ef28433fa5_Fridge.glb",
+          "name": "Fridge.glb"
+        }
+      },
+      {
+        "file": "assets/Can Fridge.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Can Fridge.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Device/119db53a89efb04a46d3660177743fe6e3904bd3df84a3334bc79b2b24fa992b_Can Fridge.glb",
+          "name": "Can Fridge.glb"
+        }
+      },
+      {
+        "file": "assets/Oven.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Oven.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Device/d3bcd800aacfb3b8807bec193fe2530bd952cb6e1bdeddb3905ea223c3e0dad1_Oven.glb",
+          "name": "Oven.glb"
+        }
+      },
+      {
+        "file": "assets/Avocado.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Avocado.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/e128981a3c165fd4b51fd94047afdc9fc0ddb217b0afe593dc43ba1fa53c6dc7_Avocado.glb",
+          "name": "Avocado.glb"
+        }
+      },
+      {
+        "file": "assets/Chukaman.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Chukaman.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/ee4ff6bf968f0a390c31be9a418fdf2ed07b893b90ecccd1ea31fc29696e26d4_Chukaman.glb",
+          "name": "Chukaman.glb"
+        }
+      },
+      {
+        "file": "assets/Dango.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Dango.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/8d7e7fe9460dc7449b67421eb408bade9f8c6fa90b84555bbb625fb0b6962e25_Dango.glb",
+          "name": "Dango.glb"
+        }
+      },
+      {
+        "file": "assets/Ebi Nigiri.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Ebi Nigiri.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/97afe9eb893b6553f86d67e036403ea6e6de031b77735cbf5dda58a758bbbaec_Ebi Nigiri.glb",
+          "name": "Ebi Nigiri.glb"
+        }
+      },
+      {
+        "file": "assets/Crabsticks.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Crabsticks.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/37a720dd2eec89b6f96a492f787c95a5e09740b54eca49c18590b34cb4cf082c_Crabsticks.glb",
+          "name": "Crabsticks.glb"
+        }
+      },
+      {
+        "file": "assets/Cucumber.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Cucumber.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/edabde844350d1b9ce252983ca973baf077664c72fdce95232b38ddb7f3d3fe1_Cucumber.glb",
+          "name": "Cucumber.glb"
+        }
+      },
+      {
+        "file": "assets/Fish Fillet.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Fish Fillet.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/faf2dea647fb4675875934405321ee4d3bcd8fdc5b4778679a85e36a14f60c8f_Fish Fillet.glb",
+          "name": "Fish Fillet.glb"
+        }
+      },
+      {
+        "file": "assets/Eel.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Eel.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/09d9028ce549291f0fb1f869ba58bc36bc2ea0312749b54e5339cd4054a63ab7_Eel.glb",
+          "name": "Eel.glb"
+        }
+      },
+      {
+        "file": "assets/Ebi.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Ebi.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/f50de7634cd5d574da55c51d3ff677bc000b9f01ffc4cd7a9a7fd800ec487c4e_Ebi.glb",
+          "name": "Ebi.glb"
+        }
+      },
+      {
+        "file": "assets/Fish.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Fish.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/7ca886734be43b76a83e2fd68051d0998224a28a64b28b2f8d5bb6969bbda798_Fish.glb",
+          "name": "Fish.glb"
+        }
+      },
+      {
+        "file": "assets/Flounder.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Flounder.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/1248901cdd7622d088860ca19fe423a46a82e6cd1a2e1a5fea47a64dbe35496e_Flounder.glb",
+          "name": "Flounder.glb"
+        }
+      },
+      {
+        "file": "assets/Gyoza.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Gyoza.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/750f76a1a96a44cb1995e9ab50fe34d901ca72bf9223cd300314aa9e1eaf86ca_Gyoza.glb",
+          "name": "Gyoza.glb"
+        }
+      },
+      {
+        "file": "assets/Mackerel.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Mackerel.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/1a634087907f470b71e5b940eaef0f65e4273e743e485cb1ee252e333c6cdf92_Mackerel.glb",
+          "name": "Mackerel.glb"
+        }
+      },
+      {
+        "file": "assets/Maguro Nigiri.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Maguro Nigiri.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/273ac998cd8635bc2151685fc0c28da6dadbd0c34acf07a7b190b5686aafea02_Maguro Nigiri.glb",
+          "name": "Maguro Nigiri.glb"
+        }
+      },
+      {
+        "file": "assets/Nori.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Nori.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/93a7e19fb54dcd4924d07f5731e98f2ed92aa45d188e7b5b9009e9af1401f958_Nori.glb",
+          "name": "Nori.glb"
+        }
+      },
+      {
+        "file": "assets/Octopus.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Octopus.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/87873f00f1d869b5bff0b0da42a06305e9b8311135276d122d9e7d9bb7c88c64_Octopus.glb",
+          "name": "Octopus.glb"
+        }
+      },
+      {
+        "file": "assets/Onigiri.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Onigiri.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/bed72ffd3820501e81d38bcec0ec53e7ae1ed004a54d46f48dacc2f5b56431f3_Onigiri.glb",
+          "name": "Onigiri.glb"
+        }
+      },
+      {
+        "file": "assets/Rice.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rice.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/788a58cfc882aa5c0283b3cebd0deca9452586aae3da7fea945afacc6acca5bc_Rice.glb",
+          "name": "Rice.glb"
+        }
+      },
+      {
+        "file": "assets/Octopus Nigiri.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Octopus Nigiri.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/6d5ba1f6b0bc08b0554172e7966d1bd0f9440f47d0191d86413ce042f76bdbf1_Octopus Nigiri.glb",
+          "name": "Octopus Nigiri.glb"
+        }
+      },
+      {
+        "file": "assets/Salmon Roll.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Salmon Roll.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/2c6da0dd89d016ae06aa02e2fec182c6382cbc95803967d8f56b176e4dea87ce_Salmon Roll.glb",
+          "name": "Salmon Roll.glb"
+        }
+      },
+      {
+        "file": "assets/Roll.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Roll.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/8ff3d01b9f1f10cb9498bc7f38343bac8b23938ae81433664c08e17e342097a9_Roll.glb",
+          "name": "Roll.glb"
+        }
+      },
+      {
+        "file": "assets/Ramen.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Ramen.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/432212eae0c843d9aa4ec0f6c9fd54a5b94885168dd349a838c3f0fb605018af_Ramen.glb",
+          "name": "Ramen.glb"
+        }
+      },
+      {
+        "file": "assets/Salmon Nigiri.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Salmon Nigiri.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/7dfa3faf1a8590c10c30fca7589b32e8d9ba57fcc9e71f0746909b6a72f6e0ce_Salmon Nigiri.glb",
+          "name": "Salmon Nigiri.glb"
+        }
+      },
+      {
+        "file": "assets/Salmon.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Salmon.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/11d2d348b25fd28fbd2bb9f731b3e3bd465061d9b7ed5290d1602174c7f46081_Salmon.glb",
+          "name": "Salmon.glb"
+        }
+      },
+      {
+        "file": "assets/Salmon Fish.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Salmon Fish.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/9d04560f4488f7d0728ca1daa65e31adfc7803e10fc1f25ed08979be281e05ee_Salmon Fish.glb",
+          "name": "Salmon Fish.glb"
+        }
+      },
+      {
+        "file": "assets/Sea Urchin Open.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Sea Urchin Open.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/d5d8b1a53344639e08cc9972237d720ffaa7451373d650f20285cec358baad15_Sea Urchin Open.glb",
+          "name": "Sea Urchin Open.glb"
+        }
+      },
+      {
+        "file": "assets/Sea Urchin.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Sea Urchin.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/e7428581e14289202f4b8005803f5e1039b9a4cdf35efb3296bebee88389e1d2_Sea Urchin.glb",
+          "name": "Sea Urchin.glb"
+        }
+      },
+      {
+        "file": "assets/Sea Urchin Roll.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Sea Urchin Roll.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/90858f4949f164856a4d831efd3d957030da132b02ca5f06891f34584cd9fd5c_Sea Urchin Roll.glb",
+          "name": "Sea Urchin Roll.glb"
+        }
+      },
+      {
+        "file": "assets/Shimesaba.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Shimesaba.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/45e2d196624b4f02d60b0d4868019395e6386e741de23c2b3d8aaede27624773_Shimesaba.glb",
+          "name": "Shimesaba.glb"
+        }
+      },
+      {
+        "file": "assets/Sliced Cucumber.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Sliced Cucumber.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/2713cd13859b904c51d88db2061e8067165b2f56bb2516c6c574913558c43c64_Sliced Cucumber.glb",
+          "name": "Sliced Cucumber.glb"
+        }
+      },
+      {
+        "file": "assets/Tamago Nigiri.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tamago Nigiri.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/46e11c887c3a62bf622a7d7f194c4ec5c79b5aaedc92cd0790589a9bd394f5f9_Tamago Nigiri.glb",
+          "name": "Tamago Nigiri.glb"
+        }
+      },
+      {
+        "file": "assets/Squid.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Squid.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/2ee4a7388400c0695b66c9304092b8e30b1f2073c16d9962da74cbec3cab285a_Squid.glb",
+          "name": "Squid.glb"
+        }
+      },
+      {
+        "file": "assets/Tentacle.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tentacle.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/6dd73d5ccc11f78b112ad059534400c922c5d88644cadd4a0c2d98563ca591a0_Tentacle.glb",
+          "name": "Tentacle.glb"
+        }
+      },
+      {
+        "file": "assets/Wasabi.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Wasabi.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/fc108a7545fe99b8847ca46a74356d9ae51d54c81b929ca3c7cfd88b20dac4f6_Wasabi.glb",
+          "name": "Wasabi.glb"
+        }
+      },
+      {
+        "file": "assets/Tuna.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tuna.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/cc63cbb4372eca913204762b91bc4b36dcc382bf6fbf628a25501141c9dceacc_Tuna.glb",
+          "name": "Tuna.glb"
+        }
+      },
+      {
+        "file": "assets/Udon.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Udon.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Food/67be1e304f195dd4ca4d3588cdb5099875de6aa76b2059ca1e37cc2f567075c5_Udon.glb",
+          "name": "Udon.glb"
+        }
+      },
+      {
+        "file": "assets/Floor Kitchen 1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Floor Kitchen 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Ground/790d424ad8c7e7c17a9ccffc9e24f7b0d118049f93179513646189076fd95223_Floor Kitchen 1.glb",
+          "name": "Floor Kitchen 1.glb"
+        }
+      },
+      {
+        "file": "assets/Floor Tiles.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Floor Tiles.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Ground/917c27180c1463876aab56f60582aed11a941f07f30a0ece00e30b85dd067e95_Floor Tiles.glb",
+          "name": "Floor Tiles.glb"
+        }
+      },
+      {
+        "file": "assets/Floor Wood.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Floor Wood.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Ground/77a6591f699767a5715d96bb9ce15fd9e2bd68c7b0ddbcad7f3a95b1544c184c_Floor Wood.glb",
+          "name": "Floor Wood.glb"
+        }
+      },
+      {
+        "file": "assets/Floor Wood Broken.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Floor Wood Broken.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Ground/1cf3a94612d949e94922c93fbb57c5c82aa036b366e0a9c90b5a30b6fb622cbd_Floor Wood Broken.glb",
+          "name": "Floor Wood Broken.glb"
+        }
+      },
+      {
+        "file": "assets/Cabinet Corner.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Cabinet Corner.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/a9705b4fafbad2ffe5e71db04d68a6aec43dbb19d9ff1f16d603e60b0f284538_Cabinet Corner.glb",
+          "name": "Cabinet Corner.glb"
+        }
+      },
+      {
+        "file": "assets/Bench.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bench.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/2c607028291382ba48396fde9753beb84fddd4bf5652cdf66b82a29001df6558_Bench.glb",
+          "name": "Bench.glb"
+        }
+      },
+      {
+        "file": "assets/Cabinet Doors.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Cabinet Doors.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/db5d35822ea09184fb04f1738cde84cbec2315c52a9bec3bc1d8c46de26ab46d_Cabinet Doors.glb",
+          "name": "Cabinet Doors.glb"
+        }
+      },
+      {
+        "file": "assets/Floor Kitchen 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Floor Kitchen 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Ground/5fbdf1a8464626da98ab4c55150f06d68680b7ffb7995d3035e639df19d5b512_Floor Kitchen 2.glb",
+          "name": "Floor Kitchen 2.glb"
+        }
+      },
+      {
+        "file": "assets/Chair 1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Chair 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/5d194bac76f5489caa7f104dfffc27cc07e34feb8339d2918ed11c0cc0913631_Chair 1.glb",
+          "name": "Chair 1.glb"
+        }
+      },
+      {
+        "file": "assets/Chair 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Chair 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/5adc3259f689390483ef86c40b12d1a96ef8833a7c19414e849b283a81a2765c_Chair 2.glb",
+          "name": "Chair 2.glb"
+        }
+      },
+      {
+        "file": "assets/Cabinet Shelves 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Cabinet Shelves 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/87f333dd8f919d11677337b699a0fb8410a20a40ee6d9955eef71c57e7be0e6c_Cabinet Shelves 2.glb",
+          "name": "Cabinet Shelves 2.glb"
+        }
+      },
+      {
+        "file": "assets/Counter Door.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Counter Door.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/0ffe15c5dc4b752cfab4480895643706480e24814d88f1e59867964984e80176_Counter Door.glb",
+          "name": "Counter Door.glb"
+        }
+      },
+      {
+        "file": "assets/Cabinet Shelves.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Cabinet Shelves.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/8d6874fd19b1b37cfa14061f056e5700e9d5829b1f50c6167eb4a3136075857f_Cabinet Shelves.glb",
+          "name": "Cabinet Shelves.glb"
+        }
+      },
+      {
+        "file": "assets/Counter Doors.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Counter Doors.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/e9a0349168d1be5cc32dfbc6d42dedcac4838a57d015a765a8bffb75fbcbbdd1_Counter Doors.glb",
+          "name": "Counter Doors.glb"
+        }
+      },
+      {
+        "file": "assets/Counter Corner.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Counter Corner.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/11da6f6a3df01d267e04edc12fdbfffea5690208360596e6ec43db69ae24aaaa_Counter Corner.glb",
+          "name": "Counter Corner.glb"
+        }
+      },
+      {
+        "file": "assets/Counter End.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Counter End.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/c11580aa1cb3a0a9e6069a6cf98e7fda943f06c025f2eb12684be3cdf6c29159_Counter End.glb",
+          "name": "Counter End.glb"
+        }
+      },
+      {
+        "file": "assets/Counter Drawers.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Counter Drawers.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/c4ff00ae584787336dc1ce20ff1f5e76e8fa5acb15ee3bfcbd0069964f8849f5_Counter Drawers.glb",
+          "name": "Counter Drawers.glb"
+        }
+      },
+      {
+        "file": "assets/Counter Sink.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Counter Sink.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/ab1537ceecc4d6b57c828994e78455b2f1b40d093682a30dc9505b7369aa0bff_Counter Sink.glb",
+          "name": "Counter Sink.glb"
+        }
+      },
+      {
+        "file": "assets/Sofa.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Sofa.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/431189578fd609a67c35c99d80e7e14e9a5a0a8b7515573666bfab91ef4ad6a1_Sofa.glb",
+          "name": "Sofa.glb"
+        }
+      },
+      {
+        "file": "assets/Counter Straight 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Counter Straight 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/c78f9cdc7fbe9fbbd344d01efbd6bd31a8c4698cd012174a49ee8a77f95f861b_Counter Straight 2.glb",
+          "name": "Counter Straight 2.glb"
+        }
+      },
+      {
+        "file": "assets/Stool.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Stool.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/4531372cdd3d3ed8f82890f052cfe9e5a94dd72cf91c11189c902ad984fd2cd1_Stool.glb",
+          "name": "Stool.glb"
+        }
+      },
+      {
+        "file": "assets/Counter Straight.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Counter Straight.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/1fad36af9b1193673c5194a22410405c2121a1af7201c15f83d1f39cedb01711_Counter Straight.glb",
+          "name": "Counter Straight.glb"
+        }
+      },
+      {
+        "file": "assets/Bottle.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bottle.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Drink/7de1882eb700a15a44bfd432d9a1d67eb2edc666f72a0c2ce1b0a37694271a76_Bottle.glb",
+          "name": "Bottle.glb"
+        }
+      },
+      {
+        "file": "assets/Table.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Table.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/66c5e0d277db33a3c3c402922e7ea4a36fb0c4aed223378d7fcc164eb98251f8_Table.glb",
+          "name": "Table.glb"
+        }
+      },
+      {
+        "file": "assets/Wooden Board.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Wooden Board.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/18da6bc18dbce8b53c40663f1bf49617b6b32189e30507dcafda585e46f41d2b_Wooden Board.glb",
+          "name": "Wooden Board.glb"
+        }
+      },
+      {
+        "file": "assets/Bottles.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bottles.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Drink/7ef42bb70f855a1398b7f86986ae11bec082bfe0cda31b8f5454f7bbafb32160_Bottles.glb",
+          "name": "Bottles.glb"
+        }
+      },
+      {
+        "file": "assets/Arch.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Arch.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Wall/01462ccb1c898b598f1478f8a0b5e1b36db1310b283fc728d05d88fb5146e8e0_Arch.glb",
+          "name": "Arch.glb"
+        }
+      },
+      {
+        "file": "assets/Wall Door.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Wall Door.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Wall/ab3780e3b1e23c00e8e4be61ef28a112bbee6ae446234b45f119faf1fe81bfd1_Wall Door.glb",
+          "name": "Wall Door.glb"
+        }
+      },
+      {
+        "file": "assets/Torii Gate.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Torii Gate.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Wall/6d57134cc8a06c7b72c8d89e9557fa8bb0f09b7016d90281c3ad5970556ce14b_Torii Gate.glb",
+          "name": "Torii Gate.glb"
+        }
+      },
+      {
+        "file": "assets/Wall Normal.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Wall Normal.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Wall/dd6757321b8c4a397b9fa19557d79da9e78861066bf3c8a5c4f54247ba314594_Wall Normal.glb",
+          "name": "Wall Normal.glb"
+        }
+      },
+      {
+        "file": "assets/Wall Red Wood.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Wall Red Wood.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Wall/fa19edd79aa51c2b521b0181de43099e79ae545d055951eb2c634cc82a23fbee_Wall Red Wood.glb",
+          "name": "Wall Red Wood.glb"
+        }
+      },
+      {
+        "file": "assets/Wall Shoji Interior.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Wall Shoji Interior.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Wall/6689f8a186aa9fe45766039a4d0a887e373987df938c3b8901f50b8c798feb04_Wall Shoji Interior.glb",
+          "name": "Wall Shoji Interior.glb"
+        }
+      },
+      {
+        "file": "assets/Wall Shelves.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Wall Shelves.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Wall/3f36a4650c91e14de56c565a5ae5ba17af9fa1c827413932c218e1417190bdad_Wall Shelves.glb",
+          "name": "Wall Shelves.glb"
+        }
+      },
+      {
+        "file": "assets/Wall Shoji.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Wall Shoji.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Wall/3869264fab58d6750e6313631a2a7af9d7f16841526d7d0bfe412061d586b82f_Wall Shoji.glb",
+          "name": "Wall Shoji.glb"
+        }
+      },
+      {
+        "file": "assets/Wall Stains.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Wall Stains.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Wall/a706d7ee11ba64447aab9ed8968079a5c08398cdf573cfc5a6754a08d0024273_Wall Stains.glb",
+          "name": "Wall Stains.glb"
+        }
+      },
+      {
+        "file": "assets/Wooden Beam.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Wooden Beam.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Wall/71c508f9d00e95e12821f5a4a181b7b8e3b1df325776c20201c0f7bd6bc4efb6_Wooden Beam.glb",
+          "name": "Wooden Beam.glb"
+        }
+      },
+      {
+        "file": "assets/Bowl.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bowl.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Prop/b0bf352dec68b182fac766b4bfcfc9975a4ee22ee3d066b597ca9aea0249b502_Bowl.glb",
+          "name": "Bowl.glb"
+        }
+      },
+      {
+        "file": "assets/Cutting Table.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Cutting Table.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Prop/509ce743118ad9851bfe62f51188c94ddf4a320b157f340420cbd8c76cbce2e7_Cutting Table.glb",
+          "name": "Cutting Table.glb"
+        }
+      },
+      {
+        "file": "assets/Kitchen Knives.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Kitchen Knives.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Prop/415e471dae42ec1d06e5a2f4e90b1b488e29491fe65453617777e3a4c4819807_Kitchen Knives.glb",
+          "name": "Kitchen Knives.glb"
+        }
+      },
+      {
+        "file": "assets/Plate.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Plate.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Prop/6f412b048d8530fc84fd90a59bf71f85ea291e839f18ddd35ed8af28b6d80614_Plate.glb",
+          "name": "Plate.glb"
+        }
+      },
+      {
+        "file": "assets/Pan.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Pan.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Prop/04f80e6dbb3890f6b576d6f631bda0d38a2cce4ed23e8db074cf4f26887f6b31_Pan.glb",
+          "name": "Pan.glb"
+        }
+      },
+      {
+        "file": "assets/Pot 1 Empty.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Pot 1 Empty.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Prop/c822f81df4b505fb0c26a361167b4ef2f25639201c106acc6bc73408840b7d0a_Pot 1 Empty.glb",
+          "name": "Pot 1 Empty.glb"
+        }
+      },
+      {
+        "file": "assets/Pot 1 Filled.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Pot 1 Filled.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Prop/35cfca0a4e13e887cd9064fb0233192e2b43ea5e15f74c3baf83c91361a6bdaa_Pot 1 Filled.glb",
+          "name": "Pot 1 Filled.glb"
+        }
+      },
+      {
+        "file": "assets/Pot 2 Filled.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Pot 2 Filled.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Prop/b488b6952ac22025917f634ee6428dc480072afa324f471c7e1758b31c75c154_Pot 2 Filled.glb",
+          "name": "Pot 2 Filled.glb"
+        }
+      },
+      {
+        "file": "assets/Pot 2 Empty.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Pot 2 Empty.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Prop/b88cf121a2b151cb77cb7c1ffaca2e1cc4b52e08cf7ca04c1dc8a053d009ead9_Pot 2 Empty.glb",
+          "name": "Pot 2 Empty.glb"
+        }
+      },
+      {
+        "file": "assets/Chukaman Steamer.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Chukaman Steamer.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Prop/dd0b380e17bc5951dfdf549f6e1570cce3c9e0f8d693ba121f5d53b20a9df8c9_Chukaman Steamer.glb",
+          "name": "Chukaman Steamer.glb"
+        }
+      },
+      {
+        "file": "assets/Truck.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Truck.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Vehicle/b3e4c9f69848fb888ce2546f8bf415f0b26d1ae859654e8f5e3816432fc34596_Truck.glb",
+          "name": "Truck.glb"
+        }
+      },
+      {
+        "file": "assets/Rabbit Bald.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rabbit Bald.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Character/c2c05db53e189b410bd2ac5676d1bf576b9f4b20a22fbd3dbd7aaec9103850fe_Rabbit Bald.glb",
+          "name": "Rabbit Bald.glb"
+        }
+      },
+      {
+        "file": "assets/Panda.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Panda.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Character/503be6fd6081e474f12021f674adfa17bf4866738331340fdf165dd016e21d7b_Panda.glb",
+          "name": "Panda.glb"
+        }
+      },
+      {
+        "file": "assets/Rabbit Purple.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rabbit Purple.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Character/c236677e2c8a5e97f8837157a3443c1849d3e4b4af13dc9adf2b951fdc32004c_Rabbit Purple.glb",
+          "name": "Rabbit Purple.glb"
+        }
+      },
+      {
+        "file": "assets/Rabbit Pink.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rabbit Pink.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Character/3bc14bb81a7b8f3f335771b96954fd150d9992dc84240f98d307250d7338445e_Rabbit Pink.glb",
+          "name": "Rabbit Pink.glb"
+        }
+      },
+      {
+        "file": "assets/Rabbit Cyan.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rabbit Cyan.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Character/085985ffbbb41b236795de67c8d5b0e8b3dc655870ab65d3c8ca276e7b3034c8_Rabbit Cyan.glb",
+          "name": "Rabbit Cyan.glb"
+        }
+      },
+      {
+        "file": "assets/Rabbit Blond.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rabbit Blond.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Character/c11119ff008dcb6a258b4f55d9586daff8ce9ea21eba65c6b15d0d82227e143e_Rabbit Blond.glb",
+          "name": "Rabbit Blond.glb"
+        }
+      },
+      {
+        "file": "assets/Rabbit Grey.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rabbit Grey.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Character/51611679ec0e0b13242c7cb165c5fc557553285244f72a7b405d7be370d38c18_Rabbit Grey.glb",
+          "name": "Rabbit Grey.glb"
+        }
+      },
+      {
+        "file": "assets/Rabbit Green.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rabbit Green.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Character/3ed61bd0ca45020080bce651ae119ad266b71234282b81172c6cb6a69c485947_Rabbit Green.glb",
+          "name": "Rabbit Green.glb"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "assetStoreId": "a7424d8789f2829d91b0b0ee4a48c116c91196b31916b3324a0a72b5013b16d7",
+      "name": "DecorationFish",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 91,
+        "height": 91,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Fish.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 91,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "fcf4a8a545c3704a080ec15644371897fee7f468d4e512da37e1948b5b78d97a",
+      "name": "DecorationBamboo",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 86,
+        "height": 86,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Bamboo.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 86,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "dc2b91030860f67ac224d15ee2efc45621307505ad0912e7cb24ca2b56cee49e",
+      "name": "DecorationPaintingSmall",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 48,
+        "height": 48,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Painting Small.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 48,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ae7425ada267d682c28d00788e10daad008d1839ea19fe5fb6e726a2c6aa4d1a",
+      "name": "DecorationBell",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 118,
+        "height": 118,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Bell.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 118,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "6a3b98fa703970083031ced1fe9d7ebfebe8a278ed8d15224f91bf28df8a0b1f",
+      "name": "DecorationCarpet",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Carpet.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "4c5c085aaba8d381e0b6a9cc39ec2cd00770ed053c5d520a6e66613ac2a5e679",
+      "name": "DecorationLight",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 41,
+        "height": 41,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Light.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 41,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "1e75c8235adda98f504c097d84f559a30285b3fd79ffe88b94a31c7c7b2fe89e",
+      "name": "DecorationPlant1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 33,
+        "height": 33,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Plant 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 33,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "1ff5a6ea6b1b1a67196782a8fce6c4e034bfdd7cc59fa7101011d7ad427bb019",
+      "name": "DecorationPainting",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Painting.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "b4983b7b0742902238878454e4a2a3b955e7628d8bcc412c55bb72e3ad2d9605",
+      "name": "DecorationSakuraFlower",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 29,
+        "height": 29,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Sakura Flower.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 29,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "85c468f8e05677a68f288f81f8040cbafe107be3fbfc3fcb0b2a034f63defd2f",
+      "name": "DecorationSakuraTree",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 142,
+        "height": 142,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Sakura Tree.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 142,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "05897ca323848aa8c61254f1d810cb168390caa9fef33b4d3941fd4614872808",
+      "name": "DecorationPlant2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 55,
+        "height": 55,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Plant 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 55,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "2b55fcb670209b5ad37a613e40dadf61d61be8adbab06ea14088fbb730d9e831",
+      "name": "DecorationSign2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Sign 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "86bf7a93de14da4ff0c27988bd0d58ad6e629c039f91e89af8abb52a235f99e8",
+      "name": "DecorationSign3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 94,
+        "height": 94,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Sign 3.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 94,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c1c571b2a723565ffa6fd37846f898dff9d7cb036e0f3f195bf5cce42f2cccaa",
+      "name": "DecorationSign",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 130,
+        "height": 130,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Sign.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 130,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c32a0703bb26ae080790a7c1b0413aea60fb837f6904e5494a55028aedbb2224",
+      "name": "DecorationWallLight",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 52,
+        "height": 52,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Decoration Wall Light.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 52,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "7141adb1fbb366a71953dc38838216769b5746b93acd531bb7f25f85f45ad2d1",
+      "name": "Fridge",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 125,
+        "height": 125,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Fridge.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 125,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "1c7c2c4be9f2fa73949227bddb9fd629c97376e705386460a6742eb12ce5736f",
+      "name": "CanFridge",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 132,
+        "height": 132,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Can Fridge.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 132,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "380f5eb43648885234d858424800aedeaadcfb221b0bcce168a0d37d9b807f8d",
+      "name": "Oven",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 67,
+        "height": 67,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Oven.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 67,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "8455fb78fe33373d4c69235afe16b03b7700980bddd4a96dcb3692729a4820ef",
+      "name": "Avocado",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 20,
+        "height": 20,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Avocado.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 20,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "784a3c0d6dbfef3ce3551a682224c9ab698a28ce63cf5d14c5ee684487bf94e6",
+      "name": "Chukaman",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 8,
+        "height": 8,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Chukaman.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 8,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "9b7e7e70984f217b47aa8001f9a5b6da1bc11a0bd70cb1e1342319737323a84c",
+      "name": "Dango",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 27,
+        "height": 27,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Dango.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 27,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "07693889ccb23656ef4398ce4d2e706e590728f38899c33a396afbd6bffd078b",
+      "name": "EbiNigiri",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 23,
+        "height": 23,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Ebi Nigiri.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 23,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "a878c4c6677c61f653ca63b303861e25a16c97c78edf408439462091fa5ca02d",
+      "name": "Crabsticks",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 16,
+        "height": 16,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Crabsticks.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 16,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "0dadab353f49720cc939db73f59ada705a19edaae8cb9c35c79d1724e01725c5",
+      "name": "Cucumber",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 49,
+        "height": 49,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Cucumber.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 49,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "acfd3ac39c602c4a807d48d7b80f9b477359249e41175a12abfb109180843782",
+      "name": "FishFillet",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 26,
+        "height": 26,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Fish Fillet.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 26,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "8849246a462a7f8e06add25fb3251e58cd65bb4f88cbe993d56e972fda268ab8",
+      "name": "Eel",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 72,
+        "height": 72,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Eel.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 72,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "cff86be894c97b129ef0bd238c5f32008c1ea4e9843567ff467af75814bef9e7",
+      "name": "Ebi",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 12,
+        "height": 12,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Ebi.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 12,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "5027ac3990dd7ce4d9753b7979c7647e51b728bd7970b2eedcd6bffc10217a84",
+      "name": "Fish",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 20,
+        "height": 20,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Fish.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 20,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "1e8ae46488b2bb8d8ffd46bf67a862326aa0e350d54cacab324bd86b50760b5c",
+      "name": "Flounder",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 42,
+        "height": 42,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Flounder.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 42,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "27eec34665f83a14fc96899ea10ae97a758ad9e091fda247500507030461ffd2",
+      "name": "Gyoza",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 17,
+        "height": 17,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Gyoza.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 17,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "2e4e3076a04e70919b59f1752392101114673e569cca124415ada6cf96bf3ebf",
+      "name": "Mackerel",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 33,
+        "height": 33,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Mackerel.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 33,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "17bff74d8fd79ad203bb8dcfc0e1f625ac2f81dae69d27a55925e86c1fe1d5fb",
+      "name": "MaguroNigiri",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 20,
+        "height": 20,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Maguro Nigiri.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 20,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "8a5e97d1f3fcecddad846936ba9662a26c03ed7961a61324949873e511c7b97b",
+      "name": "Nori",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 30,
+        "height": 30,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Nori.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 30,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "bbe2f227104996e5061fbdd1c7aac7fd306c425b9ea9d0b9198f6328fd7c552a",
+      "name": "Octopus",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 51,
+        "height": 51,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Octopus.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 51,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ba97f1163ed48f162082c14a7a3f824025b48c212e775f4d94e6bc7b7a6ce845",
+      "name": "Onigiri",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 18,
+        "height": 18,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Onigiri.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 18,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c3834692d04b599a3483762386c5d023d709d1160d81b2d5a2f8467c019da926",
+      "name": "Rice",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rice.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 32,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "7a0e3fba1396c92ad2c8da196158288f2d7910fbc84a3ce37a2f0bf7c545de6f",
+      "name": "OctopusNigiri",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 23,
+        "height": 23,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Octopus Nigiri.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 23,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "6adc0c365633f5f13c490356a52bad689d42bd497aca01ee8eeb4b131c9d74b6",
+      "name": "SalmonRoll",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 15,
+        "height": 15,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Salmon Roll.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 15,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "455dd760076a01c0aac706854cd50b46d31cbc5efead6ed831e9a423b7d01418",
+      "name": "Roll",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 13,
+        "height": 13,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Roll.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 13,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "a56c11ee147ac7572b214886e26da8761fef2759fae78dd77cc588ad8f752a85",
+      "name": "Ramen",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 31,
+        "height": 31,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Ramen.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 31,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "8bbe525b751a1e32fb71250bb192a9313a62d2688ee485d9ec8ec1b397ca737d",
+      "name": "SalmonNigiri",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 20,
+        "height": 20,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Salmon Nigiri.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 20,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "71cf9fade62dc4798954725fde174a78c1ca2a1ba33603df63ac8d81b4e9ef27",
+      "name": "Salmon",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 26,
+        "height": 26,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Salmon.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 26,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "949832e127c66f111b86bbfb70a2c43a66257f5d973bcefc5a28b945d8c78838",
+      "name": "SalmonFish",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 25,
+        "height": 25,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Salmon Fish.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 25,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "2dfe3d7600dd8357cb8a8047f7ca272490e5c1233e1df0ef9d76066725585a8e",
+      "name": "SeaUrchinOpen",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 24,
+        "height": 24,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Sea Urchin Open.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 24,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "e92621bbf359101a14eaba4b5daffe2084372ef41e38a8bb15e9b667e56c1325",
+      "name": "SeaUrchin",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 25,
+        "height": 25,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Sea Urchin.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 25,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ed9ab64c5e255332db13756fbca4f160792ad41a8ec564ce6c0bb935c5c3be54",
+      "name": "SeaUrchinRoll",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 15,
+        "height": 15,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Sea Urchin Roll.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 15,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "daca8c770aecd2bb1a86162c12df695723515a3c3004bb1c8271be5b7ea13edd",
+      "name": "Shimesaba",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 23,
+        "height": 23,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Shimesaba.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 23,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "d9cadd8464f8cd9b948bf3dbc155845a4498eed19a0721d3f19a57bd5c614f93",
+      "name": "SlicedCucumber",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 30,
+        "height": 30,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Sliced Cucumber.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 30,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "e80ff062590c1769bbe05680345ac76ad1191cd1601f916b770feb6b348c76d8",
+      "name": "TamagoNigiri",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 20,
+        "height": 20,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tamago Nigiri.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 20,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "3ec2bd51cb05e2d0b247dec411ffacbbaa1a19118c3c4764234d8d2aed8d8019",
+      "name": "Squid",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 73,
+        "height": 73,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Squid.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 73,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "7db311c2855f24f7bf635af7f5a2c3d6c9c9fe109b055401e65e28e1c2e3f8e7",
+      "name": "Tentacle",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 23,
+        "height": 23,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tentacle.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 23,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "55e773377f66759d2385618d6b9d6bfe582abd198fe87018cf5b86e9d4475e14",
+      "name": "Wasabi",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 6,
+        "height": 6,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wasabi.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 6,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ee80acd5cda15d486c604cb9431b74f4e6c5ff4f0c1a652507b939ffa5cd848f",
+      "name": "Tuna",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 47,
+        "height": 47,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tuna.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 47,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "e44e8d54a3a8be6c2aaac36fd4c0b291609b8f7f6c8e1d59c335ce849aebbe8d",
+      "name": "Udon",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 30,
+        "height": 30,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Udon.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 30,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "6f8188be451c3eff0dab27193e3d1758c93aeb2612d550ba39e37e4ab0d4efa0",
+      "name": "FloorKitchen1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Floor Kitchen 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "4da3e07e25901642408ae96095d826c70af421f03ceab510d00ea9ce98a9c690",
+      "name": "FloorTiles",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Floor Tiles.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "6cb9d6dce179b3f03816cad5c386e486457f51d2c10caed395aa02de0b8e99ef",
+      "name": "FloorWood",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Floor Wood.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "29f0127661cf5e25d25f15b50037a272b5531662adf83d6c9de6e64cd869314f",
+      "name": "FloorWoodBroken",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Floor Wood Broken.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "cb057acf6e0cd6aaef80adde2d7568936c49002efec67c3271d8d61ce5fb51c5",
+      "name": "CabinetCorner",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 56,
+        "height": 56,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Cabinet Corner.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 56,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "1719d92650ccaa8a0d9028fdb036b40c7541bbecbd9dc60edb712ac85b660261",
+      "name": "Bench",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 47,
+        "height": 47,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Bench.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 47,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "8b6c88da79abf99a258bd30742e0c88027ae9ee01a7d8802a8f7ac2bc4b4145f",
+      "name": "CabinetDoors",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Cabinet Doors.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "f6b49c3db07d663386e005a58b0dc2699fa7ac4d8d11027ab0ac6b49862ac6b0",
+      "name": "FloorKitchen2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Floor Kitchen 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "f79cd0b8e3a9cdd5f88d8746620363b7ed094b8c153bd83545eb6d4ba674765d",
+      "name": "Chair1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 54,
+        "height": 54,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Chair 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 54,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "38ead73a5496bbe085310d6410f99cc5794c86ac6dfcad583ef37d0be6953028",
+      "name": "Chair2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Chair 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 32,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "094fd70e05e3730a4f7e2bc1011d3fdaeb4e499864caa8c2fdc9fbafb3427002",
+      "name": "CabinetShelves2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Cabinet Shelves 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "8002272eb1940e49ac2e5e0d5168546f67160f548eabb6b7a2c6313f4fd33daf",
+      "name": "CounterDoor",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Counter Door.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c49da08a84b0b5df84e4fc48227759bce9e87754773db8199a7e0863ba70a7a8",
+      "name": "CabinetShelves",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Cabinet Shelves.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ed820b0ca61d74e8403e4e5ef4074cd059f24f0772ea7543d903d7e1f1df9e77",
+      "name": "CounterDoors",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Counter Doors.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "335c31458d07d0dfcb5747e35e4babfb17db6d9f8fd216b818ca573439c2c932",
+      "name": "CounterCorner",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 86,
+        "height": 86,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Counter Corner.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 86,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "e601e68ee35e90d89f4726253e33f5524eb53f46f3f3e75815bfa00c74841621",
+      "name": "CounterEnd",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 58,
+        "height": 58,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Counter End.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 58,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "64437cf65248cb333cfb47680436b5e6b87d563bcc3c2f0a99e5b7f49e7af733",
+      "name": "CounterDrawers",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Counter Drawers.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c30f647bd1274840740d83c0b95716687281fc4bc1a1cea819bd3a5bd532e78c",
+      "name": "CounterSink",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Counter Sink.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "9914631eb24ab29e5d017709b1eca61af0969e79e6322d6f7197b273ac58f152",
+      "name": "Sofa",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 117,
+        "height": 117,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Sofa.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 117,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "78f025f8088dd2befdae6662cbc44b140440d15d323a577fd271fe4e85e59611",
+      "name": "CounterStraight2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Counter Straight 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "53b3ef1d185bd6144771a1f7bcea5d0c65baaf879eec70d3721ba99d0c60703e",
+      "name": "Stool",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 34,
+        "height": 34,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Stool.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 34,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ef6041281bd0f6c61956eafce7d1eab980d10d2f2e868e275d89286b9b1240c4",
+      "name": "CounterStraight",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Counter Straight.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "f88b37226a930ea3fa6be0162a62b2b1f8451d52a3b08e31149eb77cc3bbbff4",
+      "name": "Bottle",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 29,
+        "height": 29,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Bottle.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 29,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "b7ef678c7d6fddb687cd20022e0d55ce0c97f954303a88794733629b2fce9f6f",
+      "name": "Table",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 65,
+        "height": 65,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Table.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 65,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "b5bd68c976ed8f853309136a610fd53fbb4272630a3d98e955962090b924f155",
+      "name": "WoodenBoard",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 25,
+        "height": 25,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wooden Board.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 25,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "b4310a3815b172c67cd10554a39e36f635aab157f0f63f85580de8ace3a32144",
+      "name": "Bottles",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 39,
+        "height": 39,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Bottles.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 39,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "3470d5369b6df5792ed4188621264344e275384c0833ac61f7b66f56a4566931",
+      "name": "Arch",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 226,
+        "height": 226,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Arch.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 226,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "aaa92d40ce7b9a3500a43ee1de7ba0deb97cb5e34081400d699170daffa8e1d5",
+      "name": "WallDoor",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 155,
+        "height": 155,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wall Door.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 155,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "1402c75829cb0566608ed6c2f8fd152d6fd231f98feef74b2d3e8c8b996e44aa",
+      "name": "ToriiGate",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 172,
+        "height": 172,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Torii Gate.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 172,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "fa092bc209fd95cc857dc17848468b88ae2bd0ded2fe983f8b7e674269a495f3",
+      "name": "WallNormal",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 156,
+        "height": 156,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wall Normal.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 156,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "bdc5471b1ff5ac24956bd5460c04fa1b41b2314cfcdadfd7dcdde2dc58d08b2d",
+      "name": "WallRedWood",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 149,
+        "height": 149,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wall Red Wood.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 149,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ba62e20b7e46a5c3cef79abe213b6d54ce66bc109b269696ec01fce4e377f0b1",
+      "name": "WallShojiInterior",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 133,
+        "height": 133,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wall Shoji Interior.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 133,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "abd678be650c6a19ce8f304892672ee3849713ce41d481a778e2c3b288acc3a0",
+      "name": "WallShelves",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 156,
+        "height": 156,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wall Shelves.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 156,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "366ac5a4ebe60da310d05c320dd2a4e00d4068ee85e77ae19ff10b80dd30ed1f",
+      "name": "WallShoji",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 155,
+        "height": 155,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wall Shoji.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 155,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "1e66e23e8755d09e0c67cc992e90ed978dc2dd7be2905965fdc7474428db1f88",
+      "name": "WallStains",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 156,
+        "height": 156,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wall Stains.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 156,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "142f2cabedb650163dcac5aa4026b803783edfc41b1a7cc814c0017534a46e5e",
+      "name": "WoodenBeam",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 155,
+        "height": 155,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wooden Beam.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 155,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "3796e8b0f0c6abb26aa0e700ccc1c1114c894d8c0116d1e54797e14c81e5e89b",
+      "name": "Bowl",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 30,
+        "height": 30,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Bowl.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 30,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c443d2ec85672d9e514a9467426615f81fa684fb3205bde8308d05c7a1bc8040",
+      "name": "CuttingTable",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 63,
+        "height": 63,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Cutting Table.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 63,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "08d83b32eff5c759325285cb6eabf02dea802c27c3e4fa1249a6d373e636674f",
+      "name": "KitchenKnives",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 42,
+        "height": 42,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Kitchen Knives.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 42,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "1ca26c5f1eb4a84dbfe6435102aa710c0d598a98775e0230ab44563bbe09e622",
+      "name": "Plate",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 30,
+        "height": 30,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Plate.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 30,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "6061ba26fd6b11bc12746d2289bfec76069cc11bcfb06388166f1af548328147",
+      "name": "Pan",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 62,
+        "height": 62,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Pan.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 62,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "5addd71b3c6299bf48f69f24d292dc9ad542ac43670f07ae5ac5368e9a325a73",
+      "name": "Pot1Empty",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 48,
+        "height": 48,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Pot 1 Empty.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 48,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "87df12cc4a2e02a40ac261ee65053de8e6c04f852e99a0a64210a6f4f050f463",
+      "name": "Pot1Filled",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 48,
+        "height": 48,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Pot 1 Filled.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 48,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "1899e99da7c0dc106f28971c4d0cb1293cf4cfa01ef2bb8f3e307894aa1c4395",
+      "name": "Pot2Filled",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 42,
+        "height": 42,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Pot 2 Filled.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 42,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "07be97b3fc313264d45bfa7e4f14cd8dc2bba92487230a49c3dc46786974fcd2",
+      "name": "Pot2Empty",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 42,
+        "height": 42,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Pot 2 Empty.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 42,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "66c53a0368de74fa9e82d177fcea4d07ab6778e2e31a5ec60ba19a0214a8c6db",
+      "name": "ChukamanSteamer",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 33,
+        "height": 33,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Chukaman Steamer.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 33,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "a5499984957b15714124e9a16c7719971dcbd1e7e79a6b082646104c291419a5",
+      "name": "Truck",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 88,
+        "height": 88,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Truck.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 88,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "6f6785c9857367196683feaa721b29132c664272f6210d8b71f48799ee78b40f",
+      "name": "RabbitBald",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 142,
+        "height": 142,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rabbit Bald.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 142,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "Run"
+          },
+          {
+            "loop": false,
+            "name": "Duck",
+            "source": "Duck"
+          },
+          {
+            "loop": true,
+            "name": "Jump",
+            "source": "Jump_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Punch",
+            "source": "Punch"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Death"
+          },
+          {
+            "loop": false,
+            "name": "Hit React",
+            "source": "HitReact"
+          },
+          {
+            "loop": false,
+            "name": "Yes",
+            "source": "Yes"
+          },
+          {
+            "loop": false,
+            "name": "No",
+            "source": "No"
+          },
+          {
+            "loop": false,
+            "name": "Wave",
+            "source": "Wave"
+          },
+          {
+            "loop": false,
+            "name": "Sword",
+            "source": "Sword"
+          },
+          {
+            "loop": true,
+            "name": "Idle Holding",
+            "source": "Idle_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Run Holding",
+            "source": "Run_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Walk Holding",
+            "source": "Walk_Holding"
+          },
+          {
+            "loop": false,
+            "name": "Jump Start",
+            "source": "Jump"
+          },
+          {
+            "loop": false,
+            "name": "Jump Land",
+            "source": "Jump_Land"
+          },
+          {
+            "loop": false,
+            "name": "Assembly Start",
+            "source": "Assembly_Start"
+          },
+          {
+            "loop": true,
+            "name": "Assembly Loop",
+            "source": "Assembly_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Assembly End",
+            "source": "Assembly_End"
+          },
+          {
+            "loop": false,
+            "name": "Chop Start",
+            "source": "Chop_Start"
+          },
+          {
+            "loop": true,
+            "name": "Chop Loop",
+            "source": "Chop_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Chop End",
+            "source": "Chop_End"
+          },
+          {
+            "loop": false,
+            "name": "Pan Start",
+            "source": "Pan_Start"
+          },
+          {
+            "loop": true,
+            "name": "Pan Loop",
+            "source": "Pan_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Pan End",
+            "source": "Pan_End"
+          },
+          {
+            "loop": false,
+            "name": "Sitting Start",
+            "source": "Sitting_Start"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Idle",
+            "source": "Sitting_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Sitting End",
+            "source": "Sitting_End"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Eating",
+            "source": "Sitting_Eating"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "ceb5b85ef8141e68354abb42e1753e18d20880e9beb15148beb4403fc819840d",
+      "name": "Panda",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 152,
+        "height": 152,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Panda.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 152,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "Run"
+          },
+          {
+            "loop": false,
+            "name": "Duck",
+            "source": "Duck"
+          },
+          {
+            "loop": true,
+            "name": "Jump",
+            "source": "Jump_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Punch",
+            "source": "Punch"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Death"
+          },
+          {
+            "loop": false,
+            "name": "Hit React",
+            "source": "HitReact"
+          },
+          {
+            "loop": false,
+            "name": "Yes",
+            "source": "Yes"
+          },
+          {
+            "loop": false,
+            "name": "No",
+            "source": "No"
+          },
+          {
+            "loop": false,
+            "name": "Wave",
+            "source": "Wave"
+          },
+          {
+            "loop": false,
+            "name": "Sword",
+            "source": "Sword"
+          },
+          {
+            "loop": true,
+            "name": "Idle Holding",
+            "source": "Idle_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Run Holding",
+            "source": "Run_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Walk Holding",
+            "source": "Walk_Holding"
+          },
+          {
+            "loop": false,
+            "name": "Jump Start",
+            "source": "Jump"
+          },
+          {
+            "loop": false,
+            "name": "Jump Land",
+            "source": "Jump_Land"
+          },
+          {
+            "loop": false,
+            "name": "Assembly Start",
+            "source": "Assembly_Start"
+          },
+          {
+            "loop": true,
+            "name": "Assembly Loop",
+            "source": "Assembly_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Assembly End",
+            "source": "Assembly_End"
+          },
+          {
+            "loop": false,
+            "name": "Chop Start",
+            "source": "Chop_Start"
+          },
+          {
+            "loop": true,
+            "name": "Chop Loop",
+            "source": "Chop_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Chop End",
+            "source": "Chop_End"
+          },
+          {
+            "loop": false,
+            "name": "Pan Start",
+            "source": "Pan_Start"
+          },
+          {
+            "loop": true,
+            "name": "Pan Loop",
+            "source": "Pan_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Pan End",
+            "source": "Pan_End"
+          },
+          {
+            "loop": false,
+            "name": "Sitting Start",
+            "source": "Sitting_Start"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Idle",
+            "source": "Sitting_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Sitting End",
+            "source": "Sitting_End"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Eating",
+            "source": "Sitting_Eating"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "16169b8bd53cc1baf85c6c5f09cbb476d69829fb724ce17acaf65546aca3a93b",
+      "name": "RabbitPurple",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 142,
+        "height": 142,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rabbit Purple.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 142,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "Run"
+          },
+          {
+            "loop": false,
+            "name": "Duck",
+            "source": "Duck"
+          },
+          {
+            "loop": true,
+            "name": "Jump",
+            "source": "Jump_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Punch",
+            "source": "Punch"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Death"
+          },
+          {
+            "loop": false,
+            "name": "Hit React",
+            "source": "HitReact"
+          },
+          {
+            "loop": false,
+            "name": "Yes",
+            "source": "Yes"
+          },
+          {
+            "loop": false,
+            "name": "No",
+            "source": "No"
+          },
+          {
+            "loop": false,
+            "name": "Wave",
+            "source": "Wave"
+          },
+          {
+            "loop": false,
+            "name": "Sword",
+            "source": "Sword"
+          },
+          {
+            "loop": true,
+            "name": "Idle Holding",
+            "source": "Idle_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Run Holding",
+            "source": "Run_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Walk Holding",
+            "source": "Walk_Holding"
+          },
+          {
+            "loop": false,
+            "name": "Jump Start",
+            "source": "Jump"
+          },
+          {
+            "loop": false,
+            "name": "Jump Land",
+            "source": "Jump_Land"
+          },
+          {
+            "loop": false,
+            "name": "Assembly Start",
+            "source": "Assembly_Start"
+          },
+          {
+            "loop": true,
+            "name": "Assembly Loop",
+            "source": "Assembly_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Assembly End",
+            "source": "Assembly_End"
+          },
+          {
+            "loop": false,
+            "name": "Chop Start",
+            "source": "Chop_Start"
+          },
+          {
+            "loop": true,
+            "name": "Chop Loop",
+            "source": "Chop_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Chop End",
+            "source": "Chop_End"
+          },
+          {
+            "loop": false,
+            "name": "Pan Start",
+            "source": "Pan_Start"
+          },
+          {
+            "loop": true,
+            "name": "Pan Loop",
+            "source": "Pan_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Pan End",
+            "source": "Pan_End"
+          },
+          {
+            "loop": false,
+            "name": "Sitting Start",
+            "source": "Sitting_Start"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Idle",
+            "source": "Sitting_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Sitting End",
+            "source": "Sitting_End"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Eating",
+            "source": "Sitting_Eating"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "16d9a20155fb7b476cb4d724a3d5f89b95e85ab1d427be3256f26dfb571bd66a",
+      "name": "RabbitPink",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 142,
+        "height": 142,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rabbit Pink.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 142,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "Run"
+          },
+          {
+            "loop": false,
+            "name": "Duck",
+            "source": "Duck"
+          },
+          {
+            "loop": true,
+            "name": "Jump",
+            "source": "Jump_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Punch",
+            "source": "Punch"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Death"
+          },
+          {
+            "loop": false,
+            "name": "Hit React",
+            "source": "HitReact"
+          },
+          {
+            "loop": false,
+            "name": "Yes",
+            "source": "Yes"
+          },
+          {
+            "loop": false,
+            "name": "No",
+            "source": "No"
+          },
+          {
+            "loop": false,
+            "name": "Wave",
+            "source": "Wave"
+          },
+          {
+            "loop": false,
+            "name": "Sword",
+            "source": "Sword"
+          },
+          {
+            "loop": true,
+            "name": "Idle Holding",
+            "source": "Idle_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Run Holding",
+            "source": "Run_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Walk Holding",
+            "source": "Walk_Holding"
+          },
+          {
+            "loop": false,
+            "name": "Jump Start",
+            "source": "Jump"
+          },
+          {
+            "loop": false,
+            "name": "Jump Land",
+            "source": "Jump_Land"
+          },
+          {
+            "loop": false,
+            "name": "Assembly Start",
+            "source": "Assembly_Start"
+          },
+          {
+            "loop": true,
+            "name": "Assembly Loop",
+            "source": "Assembly_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Assembly End",
+            "source": "Assembly_End"
+          },
+          {
+            "loop": false,
+            "name": "Chop Start",
+            "source": "Chop_Start"
+          },
+          {
+            "loop": true,
+            "name": "Chop Loop",
+            "source": "Chop_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Chop End",
+            "source": "Chop_End"
+          },
+          {
+            "loop": false,
+            "name": "Pan Start",
+            "source": "Pan_Start"
+          },
+          {
+            "loop": true,
+            "name": "Pan Loop",
+            "source": "Pan_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Pan End",
+            "source": "Pan_End"
+          },
+          {
+            "loop": false,
+            "name": "Sitting Start",
+            "source": "Sitting_Start"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Idle",
+            "source": "Sitting_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Sitting End",
+            "source": "Sitting_End"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Eating",
+            "source": "Sitting_Eating"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "590331913c3e265e69e477e5ec58a947fa93208dc97e394fb2676e2a74df4954",
+      "name": "RabbitCyan",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 142,
+        "height": 142,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rabbit Cyan.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 142,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "Run"
+          },
+          {
+            "loop": false,
+            "name": "Duck",
+            "source": "Duck"
+          },
+          {
+            "loop": true,
+            "name": "Jump",
+            "source": "Jump_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Punch",
+            "source": "Punch"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Death"
+          },
+          {
+            "loop": false,
+            "name": "Hit React",
+            "source": "HitReact"
+          },
+          {
+            "loop": false,
+            "name": "Yes",
+            "source": "Yes"
+          },
+          {
+            "loop": false,
+            "name": "No",
+            "source": "No"
+          },
+          {
+            "loop": false,
+            "name": "Wave",
+            "source": "Wave"
+          },
+          {
+            "loop": false,
+            "name": "Sword",
+            "source": "Sword"
+          },
+          {
+            "loop": true,
+            "name": "Idle Holding",
+            "source": "Idle_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Run Holding",
+            "source": "Run_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Walk Holding",
+            "source": "Walk_Holding"
+          },
+          {
+            "loop": false,
+            "name": "Jump Start",
+            "source": "Jump"
+          },
+          {
+            "loop": false,
+            "name": "Jump Land",
+            "source": "Jump_Land"
+          },
+          {
+            "loop": false,
+            "name": "Assembly Start",
+            "source": "Assembly_Start"
+          },
+          {
+            "loop": true,
+            "name": "Assembly Loop",
+            "source": "Assembly_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Assembly End",
+            "source": "Assembly_End"
+          },
+          {
+            "loop": false,
+            "name": "Chop Start",
+            "source": "Chop_Start"
+          },
+          {
+            "loop": true,
+            "name": "Chop Loop",
+            "source": "Chop_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Chop End",
+            "source": "Chop_End"
+          },
+          {
+            "loop": false,
+            "name": "Pan Start",
+            "source": "Pan_Start"
+          },
+          {
+            "loop": true,
+            "name": "Pan Loop",
+            "source": "Pan_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Pan End",
+            "source": "Pan_End"
+          },
+          {
+            "loop": false,
+            "name": "Sitting Start",
+            "source": "Sitting_Start"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Idle",
+            "source": "Sitting_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Sitting End",
+            "source": "Sitting_End"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Eating",
+            "source": "Sitting_Eating"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "5ad10c1682352f82fe263433d1e0bd0ff2ba563c44baf3c6e88590ad236edc2c",
+      "name": "RabbitBlond",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 142,
+        "height": 142,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rabbit Blond.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 142,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "Run"
+          },
+          {
+            "loop": false,
+            "name": "Duck",
+            "source": "Duck"
+          },
+          {
+            "loop": true,
+            "name": "Jump",
+            "source": "Jump_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Punch",
+            "source": "Punch"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Death"
+          },
+          {
+            "loop": false,
+            "name": "Hit React",
+            "source": "HitReact"
+          },
+          {
+            "loop": false,
+            "name": "Yes",
+            "source": "Yes"
+          },
+          {
+            "loop": false,
+            "name": "No",
+            "source": "No"
+          },
+          {
+            "loop": false,
+            "name": "Wave",
+            "source": "Wave"
+          },
+          {
+            "loop": false,
+            "name": "Sword",
+            "source": "Sword"
+          },
+          {
+            "loop": true,
+            "name": "Idle Holding",
+            "source": "Idle_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Run Holding",
+            "source": "Run_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Walk Holding",
+            "source": "Walk_Holding"
+          },
+          {
+            "loop": false,
+            "name": "Jump Start",
+            "source": "Jump"
+          },
+          {
+            "loop": false,
+            "name": "Jump Land",
+            "source": "Jump_Land"
+          },
+          {
+            "loop": false,
+            "name": "Assembly Start",
+            "source": "Assembly_Start"
+          },
+          {
+            "loop": true,
+            "name": "Assembly Loop",
+            "source": "Assembly_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Assembly End",
+            "source": "Assembly_End"
+          },
+          {
+            "loop": false,
+            "name": "Chop Start",
+            "source": "Chop_Start"
+          },
+          {
+            "loop": true,
+            "name": "Chop Loop",
+            "source": "Chop_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Chop End",
+            "source": "Chop_End"
+          },
+          {
+            "loop": false,
+            "name": "Pan Start",
+            "source": "Pan_Start"
+          },
+          {
+            "loop": true,
+            "name": "Pan Loop",
+            "source": "Pan_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Pan End",
+            "source": "Pan_End"
+          },
+          {
+            "loop": false,
+            "name": "Sitting Start",
+            "source": "Sitting_Start"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Idle",
+            "source": "Sitting_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Sitting End",
+            "source": "Sitting_End"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Eating",
+            "source": "Sitting_Eating"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "b9e3142f71019c3f52276688d4016b24afb827a0bb14ffed71599d99ee3059c8",
+      "name": "RabbitGrey",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 142,
+        "height": 142,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rabbit Grey.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 142,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "Run"
+          },
+          {
+            "loop": false,
+            "name": "Duck",
+            "source": "Duck"
+          },
+          {
+            "loop": true,
+            "name": "Jump",
+            "source": "Jump_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Punch",
+            "source": "Punch"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Death"
+          },
+          {
+            "loop": false,
+            "name": "Hit React",
+            "source": "HitReact"
+          },
+          {
+            "loop": false,
+            "name": "Yes",
+            "source": "Yes"
+          },
+          {
+            "loop": false,
+            "name": "No",
+            "source": "No"
+          },
+          {
+            "loop": false,
+            "name": "Wave",
+            "source": "Wave"
+          },
+          {
+            "loop": false,
+            "name": "Sword",
+            "source": "Sword"
+          },
+          {
+            "loop": true,
+            "name": "Idle Holding",
+            "source": "Idle_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Run Holding",
+            "source": "Run_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Walk Holding",
+            "source": "Walk_Holding"
+          },
+          {
+            "loop": false,
+            "name": "Jump Start",
+            "source": "Jump"
+          },
+          {
+            "loop": false,
+            "name": "Jump Land",
+            "source": "Jump_Land"
+          },
+          {
+            "loop": false,
+            "name": "Assembly Start",
+            "source": "Assembly_Start"
+          },
+          {
+            "loop": true,
+            "name": "Assembly Loop",
+            "source": "Assembly_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Assembly End",
+            "source": "Assembly_End"
+          },
+          {
+            "loop": false,
+            "name": "Chop Start",
+            "source": "Chop_Start"
+          },
+          {
+            "loop": true,
+            "name": "Chop Loop",
+            "source": "Chop_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Chop End",
+            "source": "Chop_End"
+          },
+          {
+            "loop": false,
+            "name": "Pan Start",
+            "source": "Pan_Start"
+          },
+          {
+            "loop": true,
+            "name": "Pan Loop",
+            "source": "Pan_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Pan End",
+            "source": "Pan_End"
+          },
+          {
+            "loop": false,
+            "name": "Sitting Start",
+            "source": "Sitting_Start"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Idle",
+            "source": "Sitting_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Sitting End",
+            "source": "Sitting_End"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Eating",
+            "source": "Sitting_Eating"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "c7eca669247ca11c680394c08ebb185b09cfeaf067b7029d980b4ff3290e4d2e",
+      "name": "RabbitGreen",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 142,
+        "height": 142,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rabbit Green.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 142,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "Run"
+          },
+          {
+            "loop": false,
+            "name": "Duck",
+            "source": "Duck"
+          },
+          {
+            "loop": true,
+            "name": "Jump",
+            "source": "Jump_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Punch",
+            "source": "Punch"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Death"
+          },
+          {
+            "loop": false,
+            "name": "Hit React",
+            "source": "HitReact"
+          },
+          {
+            "loop": false,
+            "name": "Yes",
+            "source": "Yes"
+          },
+          {
+            "loop": false,
+            "name": "No",
+            "source": "No"
+          },
+          {
+            "loop": false,
+            "name": "Wave",
+            "source": "Wave"
+          },
+          {
+            "loop": false,
+            "name": "Sword",
+            "source": "Sword"
+          },
+          {
+            "loop": true,
+            "name": "Idle Holding",
+            "source": "Idle_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Run Holding",
+            "source": "Run_Holding"
+          },
+          {
+            "loop": true,
+            "name": "Walk Holding",
+            "source": "Walk_Holding"
+          },
+          {
+            "loop": false,
+            "name": "Jump Start",
+            "source": "Jump"
+          },
+          {
+            "loop": false,
+            "name": "Jump Land",
+            "source": "Jump_Land"
+          },
+          {
+            "loop": false,
+            "name": "Assembly Start",
+            "source": "Assembly_Start"
+          },
+          {
+            "loop": true,
+            "name": "Assembly Loop",
+            "source": "Assembly_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Assembly End",
+            "source": "Assembly_End"
+          },
+          {
+            "loop": false,
+            "name": "Chop Start",
+            "source": "Chop_Start"
+          },
+          {
+            "loop": true,
+            "name": "Chop Loop",
+            "source": "Chop_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Chop End",
+            "source": "Chop_End"
+          },
+          {
+            "loop": false,
+            "name": "Pan Start",
+            "source": "Pan_Start"
+          },
+          {
+            "loop": true,
+            "name": "Pan Loop",
+            "source": "Pan_Loop"
+          },
+          {
+            "loop": false,
+            "name": "Pan End",
+            "source": "Pan_End"
+          },
+          {
+            "loop": false,
+            "name": "Sitting Start",
+            "source": "Sitting_Start"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Idle",
+            "source": "Sitting_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Sitting End",
+            "source": "Sitting_End"
+          },
+          {
+            "loop": true,
+            "name": "Sitting Eating",
+            "source": "Sitting_Eating"
+          }
+        ]
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "DecorationFish"
+      },
+      {
+        "objectName": "DecorationBamboo"
+      },
+      {
+        "objectName": "DecorationPaintingSmall"
+      },
+      {
+        "objectName": "DecorationBell"
+      },
+      {
+        "objectName": "DecorationCarpet"
+      },
+      {
+        "objectName": "DecorationLight"
+      },
+      {
+        "objectName": "DecorationPlant1"
+      },
+      {
+        "objectName": "DecorationPainting"
+      },
+      {
+        "objectName": "DecorationSakuraFlower"
+      },
+      {
+        "objectName": "DecorationSakuraTree"
+      },
+      {
+        "objectName": "DecorationPlant2"
+      },
+      {
+        "objectName": "DecorationSign2"
+      },
+      {
+        "objectName": "DecorationSign3"
+      },
+      {
+        "objectName": "DecorationSign"
+      },
+      {
+        "objectName": "DecorationWallLight"
+      },
+      {
+        "objectName": "Fridge"
+      },
+      {
+        "objectName": "CanFridge"
+      },
+      {
+        "objectName": "Oven"
+      },
+      {
+        "objectName": "Avocado"
+      },
+      {
+        "objectName": "Chukaman"
+      },
+      {
+        "objectName": "Dango"
+      },
+      {
+        "objectName": "EbiNigiri"
+      },
+      {
+        "objectName": "Crabsticks"
+      },
+      {
+        "objectName": "Cucumber"
+      },
+      {
+        "objectName": "FishFillet"
+      },
+      {
+        "objectName": "Eel"
+      },
+      {
+        "objectName": "Ebi"
+      },
+      {
+        "objectName": "Fish"
+      },
+      {
+        "objectName": "Flounder"
+      },
+      {
+        "objectName": "Gyoza"
+      },
+      {
+        "objectName": "Mackerel"
+      },
+      {
+        "objectName": "MaguroNigiri"
+      },
+      {
+        "objectName": "Nori"
+      },
+      {
+        "objectName": "Octopus"
+      },
+      {
+        "objectName": "Onigiri"
+      },
+      {
+        "objectName": "Rice"
+      },
+      {
+        "objectName": "OctopusNigiri"
+      },
+      {
+        "objectName": "SalmonRoll"
+      },
+      {
+        "objectName": "Roll"
+      },
+      {
+        "objectName": "Ramen"
+      },
+      {
+        "objectName": "SalmonNigiri"
+      },
+      {
+        "objectName": "Salmon"
+      },
+      {
+        "objectName": "SalmonFish"
+      },
+      {
+        "objectName": "SeaUrchinOpen"
+      },
+      {
+        "objectName": "SeaUrchin"
+      },
+      {
+        "objectName": "SeaUrchinRoll"
+      },
+      {
+        "objectName": "Shimesaba"
+      },
+      {
+        "objectName": "SlicedCucumber"
+      },
+      {
+        "objectName": "TamagoNigiri"
+      },
+      {
+        "objectName": "Squid"
+      },
+      {
+        "objectName": "Tentacle"
+      },
+      {
+        "objectName": "Wasabi"
+      },
+      {
+        "objectName": "Tuna"
+      },
+      {
+        "objectName": "Udon"
+      },
+      {
+        "objectName": "FloorKitchen1"
+      },
+      {
+        "objectName": "FloorTiles"
+      },
+      {
+        "objectName": "FloorWood"
+      },
+      {
+        "objectName": "FloorWoodBroken"
+      },
+      {
+        "objectName": "CabinetCorner"
+      },
+      {
+        "objectName": "Bench"
+      },
+      {
+        "objectName": "CabinetDoors"
+      },
+      {
+        "objectName": "FloorKitchen2"
+      },
+      {
+        "objectName": "Chair1"
+      },
+      {
+        "objectName": "Chair2"
+      },
+      {
+        "objectName": "CabinetShelves2"
+      },
+      {
+        "objectName": "CounterDoor"
+      },
+      {
+        "objectName": "CabinetShelves"
+      },
+      {
+        "objectName": "CounterDoors"
+      },
+      {
+        "objectName": "CounterCorner"
+      },
+      {
+        "objectName": "CounterEnd"
+      },
+      {
+        "objectName": "CounterDrawers"
+      },
+      {
+        "objectName": "CounterSink"
+      },
+      {
+        "objectName": "Sofa"
+      },
+      {
+        "objectName": "CounterStraight2"
+      },
+      {
+        "objectName": "Stool"
+      },
+      {
+        "objectName": "CounterStraight"
+      },
+      {
+        "objectName": "Bottle"
+      },
+      {
+        "objectName": "Table"
+      },
+      {
+        "objectName": "WoodenBoard"
+      },
+      {
+        "objectName": "Bottles"
+      },
+      {
+        "objectName": "Arch"
+      },
+      {
+        "objectName": "WallDoor"
+      },
+      {
+        "objectName": "ToriiGate"
+      },
+      {
+        "objectName": "WallNormal"
+      },
+      {
+        "objectName": "WallRedWood"
+      },
+      {
+        "objectName": "WallShojiInterior"
+      },
+      {
+        "objectName": "WallShelves"
+      },
+      {
+        "objectName": "WallShoji"
+      },
+      {
+        "objectName": "WallStains"
+      },
+      {
+        "objectName": "WoodenBeam"
+      },
+      {
+        "objectName": "Bowl"
+      },
+      {
+        "objectName": "CuttingTable"
+      },
+      {
+        "objectName": "KitchenKnives"
+      },
+      {
+        "objectName": "Plate"
+      },
+      {
+        "objectName": "Pan"
+      },
+      {
+        "objectName": "Pot1Empty"
+      },
+      {
+        "objectName": "Pot1Filled"
+      },
+      {
+        "objectName": "Pot2Filled"
+      },
+      {
+        "objectName": "Pot2Empty"
+      },
+      {
+        "objectName": "ChukamanSteamer"
+      },
+      {
+        "objectName": "Truck"
+      },
+      {
+        "objectName": "RabbitBald"
+      },
+      {
+        "objectName": "Panda"
+      },
+      {
+        "objectName": "RabbitPurple"
+      },
+      {
+        "objectName": "RabbitPink"
+      },
+      {
+        "objectName": "RabbitCyan"
+      },
+      {
+        "objectName": "RabbitBlond"
+      },
+      {
+        "objectName": "RabbitGrey"
+      },
+      {
+        "objectName": "RabbitGreen"
+      }
+    ]
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayerAuthentication::DisplayAuthenticationBanner"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
