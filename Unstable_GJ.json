@@ -1262,6 +1262,13 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Character/3ed61bd0ca45020080bce651ae119ad266b71234282b81172c6cb6a69c485947_Rabbit Green.glb",
           "name": "Rabbit Green.glb"
         }
+      },
+      {
+        "file": "skater_boy_hand_painted.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "skater_boy_hand_painted.glb",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2001,9 +2008,9 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "content": {
@@ -2667,9 +2674,9 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "content": {
@@ -5222,15 +5229,15 @@
   "variables": [],
   "layouts": [
     {
-      "b": 209,
+      "b": 110,
       "disableInputWhenNotFocused": true,
       "mangledName": "Untitled_32scene",
       "name": "Untitled scene",
-      "r": 209,
+      "r": 194,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 110,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -5241,7 +5248,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 1.580468749999998,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5342,6 +5349,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "skater_boy",
+          "persistentUuid": "c34a09c6-3593-4132-87bb-f286f1fd657b",
+          "width": 0,
+          "x": 1039,
+          "y": 593,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5354,6 +5377,34 @@
           "behaviors": [],
           "content": {},
           "childrenContent": {}
+        },
+        {
+          "assetStoreId": "",
+          "name": "skater_boy",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 100,
+            "height": 100,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "skater_boy_hand_painted.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 100,
+            "animations": [
+              {
+                "loop": false,
+                "name": "",
+                "source": "Armature|Armature|mixamo.com|Layer"
+              }
+            ]
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -5361,6 +5412,9 @@
         "children": [
           {
             "objectName": "Enable_WithThreeJS"
+          },
+          {
+            "objectName": "skater_boy"
           }
         ]
       },
