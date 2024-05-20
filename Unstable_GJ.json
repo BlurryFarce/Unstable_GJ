@@ -2017,6 +2017,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/Character/e46cf16d5b47cde3bcd9c38ec2a2cec07c4190ec303d5eec6baaca39b970c25e_Male Shirt.glb",
           "name": "Male Shirt.glb"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Forest Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9c836518da4f93f1a442e4beaa4023bdde907296b1a03f5562a73693fac0f778_tiled_Forest Background.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/9c836518da4f93f1a442e4beaa4023bdde907296b1a03f5562a73693fac0f778_tiled_Forest Background.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -6065,8 +6078,8 @@
     {
       "b": 110,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "Level_95Scene",
+      "name": "Level_Scene",
       "r": 194,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -6082,7 +6095,2315 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.6337626779315075,
+        "zoomFactor": 1.2530387740589901,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Chair2",
+          "persistentUuid": "ee52d34f-6dca-4e95-9190-bf6335fdeee2",
+          "width": 0,
+          "x": 970,
+          "y": 521,
+          "z": 5,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Chair2",
+          "persistentUuid": "6674750b-b7ca-42b3-a325-ce9b249ed542",
+          "width": 0,
+          "x": 595,
+          "y": 668,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Chair1",
+          "persistentUuid": "b3937b8d-ffd0-4c66-9b19-5de1dee7edcd",
+          "width": 0,
+          "x": 1865,
+          "y": 1039,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "skater_boy",
+          "persistentUuid": "c34a09c6-3593-4132-87bb-f286f1fd657b",
+          "width": 0,
+          "x": 1039,
+          "y": 593,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MaleShirt",
+          "persistentUuid": "83ec328f-6d5a-4029-a1af-8050544dd1f7",
+          "width": 0,
+          "x": 1159,
+          "y": 519,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Camera",
+          "persistentUuid": "54fe0b04-0857-4e30-a4a6-dd06420f5a54",
+          "width": 0,
+          "x": 996,
+          "y": 518,
+          "z": 758,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Enable_WithThreeJS",
+          "type": "WithThreeJS::EnableWithThreeJS",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {}
+        },
+        {
+          "assetStoreId": "",
+          "name": "skater_boy",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "depth": 100,
+            "height": 100,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "skater_boy_hand_painted.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 100,
+            "animations": [
+              {
+                "loop": true,
+                "name": "",
+                "source": "Armature|Armature|mixamo.com|Layer"
+              }
+            ]
+          }
+        },
+        {
+          "assetStoreId": "f45ef369af147fcc1da3e422068d85495a800acf91c8fa38edb5f2ec986fbbb0",
+          "name": "ConstructionPylon",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 14,
+            "height": 14,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Construction Pylon.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 14,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "50bdf40ea6cc2daf934621feb2f104dcea0c7a1cee33698d98dfbe23b345d4f4",
+          "name": "ConstructionBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 34,
+            "height": 34,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Construction Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 34,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "14c2c90611a7794f79a0222214464c35e2b03d34de2a17067e10ada582582533",
+          "name": "BridgePillar",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 75,
+            "height": 75,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Bridge Pillar.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 75,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "683b1554e4f13f855fe4f7446768789a91a49866940072ea9844c701df57611d",
+          "name": "ConstructionLight",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 35,
+            "height": 35,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Construction Light.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 35,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "85162c21e7cb518ca07d03a097bbe13b7584d75092af89ec768468876f796890",
+          "name": "LightCurvedCross",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 101,
+            "height": 101,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Light Curved Cross.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 101,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "342a1348b16dc68e4811b9e37f61f49a2a488f9ea8cb73cebb385d785e487f4b",
+          "name": "BridgePillarWide",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 75,
+            "height": 75,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Bridge Pillar Wide.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 75,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "655013edca77a80957af93babd54ccd5046017db5d0597613ca9694f45d90419",
+          "name": "LightCurvedDouble",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 101,
+            "height": 101,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Light Curved Double.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 101,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "8f87a0880224f5a8ec4326abcbe9b47f9e0e7e8eb5af0b5de3cfa9a34d2623bb",
+          "name": "LightSquareCross",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 90,
+            "height": 90,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Light Square Cross.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 90,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "ffc02d33af0fac1cadb1298e34c3dbf2ed34da9dadcef1a002fdf6edcde30078",
+          "name": "LightSquare",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 90,
+            "height": 90,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Light Square.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 90,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "b75fc78fd2345d4ee146457a47f7f713a069201e73eebb478ff72b56ee64c44a",
+          "name": "LightCurved",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 101,
+            "height": 101,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Light Curved.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 101,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "730d40fa59347439f0922e2ca6274966235bf3d941b11433463737ad53e29e1e",
+          "name": "LightSquareDouble",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 90,
+            "height": 90,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Light Square Double.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 90,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "79a334f5403b6c2daa0625e37c715ede02c9283c06721ee917767f36efff8570",
+          "name": "RoadBend",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Bend.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "5f52035c9c6ae128c9f37f870614878a0a8bc37014e9676f6f3717861e2da924",
+          "name": "RoadBendSidewalk",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Bend Sidewalk.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "1c02dc030a0b5f7525ea885ef436b13806a0e162a881274efd9923e28b0ca16b",
+          "name": "RoadBendSquare",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Bend Square.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "d1947ee0e0ffbbcd89647ccb1dce43855990217ed438d7641c74eff7bdd3d033",
+          "name": "RoadBendBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Bend Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "4f037797d8890d10369a4f9b45d2fb76cd3867f5ffbf9919d675ddefb4c5a02e",
+          "name": "RoadBridge",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Bridge.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "3f9553cd8a1834a4def88190fee9c752cfa3101abcdbdf02ae92e8ed41f3c679",
+          "name": "RoadCrossing",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Crossing.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "ae09642f549122b398405ffda9bd787c20f0fdfcb555a4535c710a3f218c8130",
+          "name": "RoadCrossroadPath",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Crossroad Path.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "32f223d445c335013b107b60119a4ca7108c66ea59c31f0191e28dd6d13606e7",
+          "name": "RoadBendSquareBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Bend Square Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "3bb3ae44b85cad48a40c16d43ef516f7db4639d2e392862e31ec78081c0cb1ef",
+          "name": "RoadCrossroadBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Crossroad Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "89b36b0668762aaaaf1f9cfb0cdb4b32a82cfb814f18e74cccb1b282179f37ee",
+          "name": "RoadCrossroadLine",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Crossroad Line.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "96b5e08162e750a5485d64542dfa484deb17aa20f84c943e377d726345ee4243",
+          "name": "RoadCurveBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 300,
+            "height": 300,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Curve Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 300,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "3e4761f7c12c61d95152e763b04f557cb6e649b8a4d8f90015a6a6ee90cd68e7",
+          "name": "RoadCrossroad",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Crossroad.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "c9d2abc3dd86f3814e43aafebc0724879d7a002378c5bef8f7474fb382e95b0d",
+          "name": "RoadCurveIntersection",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 300,
+            "height": 300,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Curve Intersection.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 300,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "6cd4222f92d9003bdabe62d842275b9f1088b96a626fafc786f07886cc39ea6a",
+          "name": "RoadCurveIntersectionBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 300,
+            "height": 300,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Curve Intersection Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 300,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "01df7826ff275f2f9c20f39dd1821dc9bae5a8868c903814dc07526e838c855c",
+          "name": "RoadCurvePavement",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 300,
+            "height": 300,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Curve Pavement.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 300,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "5c29b04baec5b7b6cb3538480ce4d17daee4c68205097e67928c433e7c9f8ec1",
+          "name": "RoadCurve",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 300,
+            "height": 300,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Curve.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 300,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "68b9bc99fb336f877818ccf0526b1f75b84ac4ebe5b98bcf8f459c5a45a93650",
+          "name": "RoadDrivewayDouble",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Driveway Double.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "0d7d42ae1a9a6fb706b94d026357a88a9a462978788b7935735030b6f1537be6",
+          "name": "RoadDrivewayDoubleBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Driveway Double Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "c59cd90ceb33ab66d51493bf85ba48566379018bf6ff5216c0f1aae7220b5fa0",
+          "name": "RoadDrivewaySingle",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Driveway Single.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "09bafa8555999aeaf3d61cfe69d3101d81d5a042103fd385d356e98434df6c19",
+          "name": "RoadDrivewaySingleBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Driveway Single Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "7453c71ce86b303934c35aea011ddf8e81762676c39de89f5a30df80825a3eaf",
+          "name": "RoadEndBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road End Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "03d6787899f2de7ab30de4681033d6e0498dfb534eac57fbaa85e1394dab6615",
+          "name": "RoadEndRoundBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road End Round Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "f625867e7138e2b881d4eb4fc64e91af3331152b4aa7f4fb45b1e57ec11530fe",
+          "name": "RoadEnd",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road End.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "926094ec71843f855330cd4e873358f4c21842d452515a77b2414be6c012bee4",
+          "name": "RoadEndRound",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road End Round.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "c289981d26f6ad83b2f66ac0f7c9fd7ee6543610c6622a4945469fb822d0e858",
+          "name": "RoadIntersectionBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Intersection Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "b29bf923f72375cfd76640dd126b13577b071f9ca68e6db6e2590446c4a8626e",
+          "name": "RoadIntersectionLine",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Intersection Line.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "6068622b870d5a584dff0f1190288ee2c70ae9b0a5f310c3a051faf065bb16b0",
+          "name": "RoadIntersection",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Intersection.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "fad6af3a34db69705540270898681716e47359bbb1b474b27104f823098ef0aa",
+          "name": "RoadIntersectionPath",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Intersection Path.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "4506277c30d5c399330635fd82c367da31c5e1b10a15bef979bb5c96fed31b58",
+          "name": "RoadRoundabout",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 450,
+            "height": 450,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Roundabout.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 450,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "b5284ff2e31b017a7d6437d5874e66fa2e02f79829bf98e3cb92c05273fdabd0",
+          "name": "RoadRoundaboutBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 450,
+            "height": 450,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Roundabout Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 450,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "5648af1d53c9dcae147857efea3dd30d562917db90fff0b58dbe50e712177d1a",
+          "name": "RoadSideBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 196,
+            "height": 196,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Side Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 196,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "14886afb5bbcdc2613aefcbeeb84a2587812c5ae8d09f92dbaea51dff337b9f6",
+          "name": "RoadSideExitBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 196,
+            "height": 196,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Side Exit Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 196,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "d9ca8f4f51999f01e72617630f18a68cd8f0e69b5d75809a9877e47f7618aec8",
+          "name": "RoadSideEntry",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 196,
+            "height": 196,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Side Entry.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 196,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "0c70f9e03cfcf30fb16b87bb4803e9400fd97bfc6a4bef20d18a16235ea8448e",
+          "name": "RoadSideExit",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 196,
+            "height": 196,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Side Exit.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 196,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "08b80f742bbac4417720400fc1d7854a97bfc37f21009d6dedf263e650371262",
+          "name": "RoadSide",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 196,
+            "height": 196,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Side.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 196,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "3b1dc243f47a43a52acfa0525cf3fd0b759e63444bc52bbe151b28090fe281ce",
+          "name": "RoadSideEntryBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 196,
+            "height": 196,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Side Entry Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 196,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "f6244a7b9a1632e707a29b014c56658f56c32eb328916c8ecb62883d92631abf",
+          "name": "RoadSlantCurveBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 300,
+            "height": 300,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Slant Curve Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 300,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "652505d4aeda0e82bfd887cd99b27bcada3d5d9d6a96ce8403ff2f6042d774ce",
+          "name": "RoadSlantBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Slant Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "77785b7ed5263fd81fe111b09c6fedb1097f5be225025799071d40e11fde7df9",
+          "name": "RoadSlantCurve",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 300,
+            "height": 300,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Slant Curve.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 300,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "68b3619d5f1160c84d46230811353a2efba542031d25217b390cc3f3badb928e",
+          "name": "RoadSlantFlatCurve",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 300,
+            "height": 300,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Slant Flat Curve.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 300,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "725a1358fcdb553b281575dd1d66b593ba7571fe290ee594fd8eabf732bef5be",
+          "name": "RoadSlantHigh",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Slant High.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "071f853012efdd6327e58a938f8f72d26aa2c06cf13e735be2449b9e270f8f13",
+          "name": "RoadSlantFlatHigh",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Slant Flat High.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "8da1f4153027e03402b662c0ee7ddb434a2c3ec6c1acefb2f9ad08ba0021eb20",
+          "name": "RoadSlantFlat",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Slant Flat.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "d0c21a8fcf92924db8aac91369e07b5bf5e14898481ef980d243d456bbbb82da",
+          "name": "RoadSlantHighBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Slant High Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "5f839a68478928ff735e0f4a1641dd4c083c1572cfb3097eadb2590200c46363",
+          "name": "RoadSlant",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Slant.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "00caeec2f3385da2048f0ca5d60a6772cabee500a41a7733714b12b0e2b357dc",
+          "name": "RoadSplitBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 300,
+            "height": 300,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Split Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 300,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "7e75114d428d63819b236110516f61f02d246739f6df255feabf02237a28d08f",
+          "name": "RoadSquareBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Square Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "0858eafcdc5fb0f5e7bbd365dba7064f533f50bb8d482b84e41f3e398beb7e4c",
+          "name": "RoadSquare",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Square.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "59f4fb822e6cf240bc0f2d47ded7699db4d461c0d65383c2a7afc1d829b59b99",
+          "name": "RoadStraightBarrierEnd",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Straight Barrier End.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "82739f991e84694578a9c1b9251a33b6a673e8444929ba5e07a99e44877895cc",
+          "name": "RoadSplit",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 300,
+            "height": 300,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Split.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 300,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "bbdd1d6c7d452e1847310eb327cddabe057cb893886f3a7a1af1c38e353eac92",
+          "name": "RoadStraight",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Straight.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "9ecd67a862d2e8d522129f55185f3310fdb45d138450518bdbc384700826009d",
+          "name": "RoadStraightBarrier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Road Straight Barrier.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "addf80cdad80596f8eb0690b6240ade70efe84de1f0f2b44ff5f303bbc2f1e5f",
+          "name": "TileLow",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Tile Low.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "e702a909b2ef0d233acc5badc6c77325933a005c708a4d534d1aa2259f600a75",
+          "name": "TileHigh",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Tile High.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "4156b0684a2b45f1f77c9608cda41c2cd15817f8fee12636f7c0015282d6062d",
+          "name": "TileSlant",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 150,
+            "height": 150,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Tile Slant.glb",
+            "originLocation": "TopLeft",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 150,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Camera",
+          "type": "Scene3D::Cube3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "width": 25,
+            "height": 25,
+            "depth": 25,
+            "enableTextureTransparency": false,
+            "facesOrientation": "Y",
+            "frontFaceResourceName": "",
+            "backFaceResourceName": "",
+            "backFaceUpThroughWhichAxisRotation": "X",
+            "leftFaceResourceName": "",
+            "rightFaceResourceName": "",
+            "topFaceResourceName": "",
+            "bottomFaceResourceName": "",
+            "frontFaceVisible": true,
+            "backFaceVisible": false,
+            "leftFaceVisible": true,
+            "rightFaceVisible": true,
+            "topFaceVisible": true,
+            "bottomFaceVisible": true,
+            "frontFaceResourceRepeat": false,
+            "backFaceResourceRepeat": false,
+            "leftFaceResourceRepeat": false,
+            "rightFaceResourceRepeat": false,
+            "topFaceResourceRepeat": false,
+            "bottomFaceResourceRepeat": false,
+            "materialType": "Basic"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Enable_WithThreeJS"
+          },
+          {
+            "objectName": "skater_boy"
+          },
+          {
+            "objectName": "ConstructionPylon"
+          },
+          {
+            "objectName": "ConstructionBarrier"
+          },
+          {
+            "objectName": "BridgePillar"
+          },
+          {
+            "objectName": "ConstructionLight"
+          },
+          {
+            "objectName": "LightCurvedCross"
+          },
+          {
+            "objectName": "BridgePillarWide"
+          },
+          {
+            "objectName": "LightCurvedDouble"
+          },
+          {
+            "objectName": "LightSquareCross"
+          },
+          {
+            "objectName": "LightSquare"
+          },
+          {
+            "objectName": "LightCurved"
+          },
+          {
+            "objectName": "LightSquareDouble"
+          },
+          {
+            "objectName": "RoadBend"
+          },
+          {
+            "objectName": "RoadBendSidewalk"
+          },
+          {
+            "objectName": "RoadBendSquare"
+          },
+          {
+            "objectName": "RoadBendBarrier"
+          },
+          {
+            "objectName": "RoadBridge"
+          },
+          {
+            "objectName": "RoadCrossing"
+          },
+          {
+            "objectName": "RoadCrossroadPath"
+          },
+          {
+            "objectName": "RoadBendSquareBarrier"
+          },
+          {
+            "objectName": "RoadCrossroadBarrier"
+          },
+          {
+            "objectName": "RoadCrossroadLine"
+          },
+          {
+            "objectName": "RoadCurveBarrier"
+          },
+          {
+            "objectName": "RoadCrossroad"
+          },
+          {
+            "objectName": "RoadCurveIntersection"
+          },
+          {
+            "objectName": "RoadCurveIntersectionBarrier"
+          },
+          {
+            "objectName": "RoadCurvePavement"
+          },
+          {
+            "objectName": "RoadCurve"
+          },
+          {
+            "objectName": "RoadDrivewayDouble"
+          },
+          {
+            "objectName": "RoadDrivewayDoubleBarrier"
+          },
+          {
+            "objectName": "RoadDrivewaySingle"
+          },
+          {
+            "objectName": "RoadDrivewaySingleBarrier"
+          },
+          {
+            "objectName": "RoadEndBarrier"
+          },
+          {
+            "objectName": "RoadEndRoundBarrier"
+          },
+          {
+            "objectName": "RoadEnd"
+          },
+          {
+            "objectName": "RoadEndRound"
+          },
+          {
+            "objectName": "RoadIntersectionBarrier"
+          },
+          {
+            "objectName": "RoadIntersectionLine"
+          },
+          {
+            "objectName": "RoadIntersection"
+          },
+          {
+            "objectName": "RoadIntersectionPath"
+          },
+          {
+            "objectName": "RoadRoundabout"
+          },
+          {
+            "objectName": "RoadRoundaboutBarrier"
+          },
+          {
+            "objectName": "RoadSideBarrier"
+          },
+          {
+            "objectName": "RoadSideExitBarrier"
+          },
+          {
+            "objectName": "RoadSideEntry"
+          },
+          {
+            "objectName": "RoadSideExit"
+          },
+          {
+            "objectName": "RoadSide"
+          },
+          {
+            "objectName": "RoadSideEntryBarrier"
+          },
+          {
+            "objectName": "RoadSlantCurveBarrier"
+          },
+          {
+            "objectName": "RoadSlantBarrier"
+          },
+          {
+            "objectName": "RoadSlantCurve"
+          },
+          {
+            "objectName": "RoadSlantFlatCurve"
+          },
+          {
+            "objectName": "RoadSlantHigh"
+          },
+          {
+            "objectName": "RoadSlantFlatHigh"
+          },
+          {
+            "objectName": "RoadSlantFlat"
+          },
+          {
+            "objectName": "RoadSlantHighBarrier"
+          },
+          {
+            "objectName": "RoadSlant"
+          },
+          {
+            "objectName": "RoadSplitBarrier"
+          },
+          {
+            "objectName": "RoadSquareBarrier"
+          },
+          {
+            "objectName": "RoadSquare"
+          },
+          {
+            "objectName": "RoadStraightBarrierEnd"
+          },
+          {
+            "objectName": "RoadSplit"
+          },
+          {
+            "objectName": "RoadStraight"
+          },
+          {
+            "objectName": "RoadStraightBarrier"
+          },
+          {
+            "objectName": "TileLow"
+          },
+          {
+            "objectName": "TileHigh"
+          },
+          {
+            "objectName": "TileSlant"
+          },
+          {
+            "objectName": "Camera"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "WithThreeJS::Create3DSceneV2"
+              },
+              "parameters": [
+                "",
+                "\"255;115;115\"",
+                "9c836518da4f93f1a442e4beaa4023bdde907296b1a03f5562a73693fac0f778_tiled_Forest Background.png",
+                "\"194;175;175\"",
+                "\"156;156;156\"",
+                "1",
+                "1000",
+                "1",
+                "\"Top Down\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "MousePointerLock::isPointerLocked"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MousePointerLock::RequestPointerLock"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Camera",
+                "+",
+                "MousePointerLock::MovementX()/20"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetRotationY"
+              },
+              "parameters": [
+                "Camera",
+                "Object3D",
+                "=",
+                "clamp((Camera.RotationY() + MousePointerLock::MovementY()/20), -90, 90)"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Camera",
+                "=",
+                "Camera.CenterX()"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Camera",
+                "=",
+                "Camera.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::SetCameraRotationX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Camera.RotationY() + 90",
+                "",
+                "-Camera.RotationY() + 90"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::SetCameraRotationX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Camera.RotationX()",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraAngle"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Camera.Angle() + 90",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Camera.Y()",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Camera.X()",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::SetCameraZ"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Camera.Z()",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Camera",
+                "Camera.Angle()",
+                "200",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Camera",
+                "0",
+                "-200",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "s"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Camera",
+                "0",
+                "200",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Camera",
+                "-200",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Camera",
+                "200",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "r"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetZ"
+              },
+              "parameters": [
+                "Camera",
+                "Object3D",
+                "-",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "f"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetZ"
+              },
+              "parameters": [
+                "Camera",
+                "Object3D",
+                "+",
+                "10"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Object3D",
+          "type": "Scene3D::Base3DBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
+    },
+    {
+      "b": 110,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled",
+      "name": "Untitled",
+      "r": 194,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 110,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1.688853694704133,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8236,6 +10557,197 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "PANDAKO-GitHub",
+      "category": "Input",
+      "extensionNamespace": "",
+      "fullName": "Mouse Pointer Lock",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBvbHlsaW5lIGNsYXNzPSJzdDAiIHBvaW50cz0iMTksMTkgMjQsMTkgMjQsMjQgIi8+DQo8cG9seWxpbmUgY2xhc3M9InN0MCIgcG9pbnRzPSI2LDIzIDExLDIzIDExLDE4ICIvPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTI0LDE5LjRjLTAuNywwLjgtMS40LDEuNi0yLjIsMi40Yy03LDctMTUuMywxMC4yLTE4LjUsN3MtMC4xLTExLjUsNy0xOC41czE1LjMtMTAuMiwxOC41LTcNCgljMS40LDEuNCwxLjYsMy42LDAuOCw2LjMiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMSwyMi41Yy0wLjMtMC4yLTAuNS0wLjUtMC44LTAuOGMtNy03LTEwLjItMTUuMy03LTE4LjVzMTEuNS0wLjEsMTguNSw3czEwLjIsMTUuMyw3LDE4LjUNCgljLTEuNywxLjctNC44LDEuNi04LjQsMC4xIi8+DQo8L3N2Zz4NCg==",
+      "name": "MousePointerLock",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Virtual Reality/Virtual Reality_360_rotate_vr_movement.svg",
+      "shortDescription": "This behavior removes the limit on the distance the mouse can move and hides the cursor.",
+      "version": "0.1.6",
+      "description": [
+        "This behavior removes the limit on the distance the mouse can move and hides the cursor.",
+        "",
+        "For example, a user can rotate or continue to manipulate an object by moving the mouse endlessly ([open the project online](https://editor.gdevelop.io/?project=example://mouse-pointer-lock)).",
+        "Without the pointer lock, the rotation or operation will stop the moment the pointer reaches the edge of the browser or screen.",
+        "",
+        "Game players don't have to worry about leaving the gameplay area or accidentally clicking on another application that moves the mouse focus away from the game.",
+        "",
+        "Locking the pointer locks `CursorX()` and `CursorY()` expressions.",
+        "Use `MovementX()` and `MovementY()` instead.",
+        ""
+      ],
+      "origin": {
+        "identifier": "MousePointerLock",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "mouse",
+        "lock",
+        "cursor",
+        "pointer"
+      ],
+      "authorIds": [
+        "Zu55H5hcb9YmZTltIVOTAFDJQyB2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onFirstSceneLoaded",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const canvas = runtimeScene.getGame().getRenderer().getCanvas();",
+                "",
+                "gdjs._MousePointerLockExtension = {};",
+                "gdjs._MousePointerLockExtension.movement = { x: 0, y: 0 };",
+                "",
+                "canvas.addEventListener(\"pointermove\", (e) => {",
+                "    gdjs._MousePointerLockExtension.movement.x += e.movementX || 0;",
+                "    gdjs._MousePointerLockExtension.movement.y += e.movementY || 0;",
+                "}, false);"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onScenePostEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "gdjs._MousePointerLockExtension.movement = { x: 0, y: 0 };",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Get the movement of the pointer on the X-axis.",
+          "fullName": "Pointer X movement",
+          "functionType": "Expression",
+          "name": "MovementX",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "eventsFunctionContext.returnValue = gdjs._MousePointerLockExtension.movement.x || 0;",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Get the movement of the pointer on the Y-axis.",
+          "fullName": "Pointer Y movement",
+          "functionType": "Expression",
+          "name": "MovementY",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "eventsFunctionContext.returnValue = gdjs._MousePointerLockExtension.movement.y || 0;",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Lock the mouse pointer to hide it.",
+          "fullName": "Request Pointer Lock",
+          "functionType": "Action",
+          "name": "RequestPointerLock",
+          "sentence": "Request Pointer Lock",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const canvas = runtimeScene.getGame().getRenderer().getCanvas();\r",
+                "if (canvas.requestPointerLock) {\r",
+                "    canvas.requestPointerLock({ unadjustedMovement: true });\r",
+                "}"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Unlocks the mouse pointer and show it.",
+          "fullName": "Exit pointer lock",
+          "functionType": "Action",
+          "name": "ExitPointerLock",
+          "sentence": "Exit pointer lock",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "if (document.exitPointerLock) {\r",
+                "    document.exitPointerLock();\r",
+                "}"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if the mouse pointer is locked.",
+          "fullName": "Pointer is locked",
+          "functionType": "Condition",
+          "name": "isPointerLocked",
+          "sentence": "The mouse pointer is locked",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "eventsFunctionContext.returnValue = document.pointerLockElement ? true : false;",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
     {
       "author": "",
       "category": "",
